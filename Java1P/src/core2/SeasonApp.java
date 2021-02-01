@@ -2,8 +2,7 @@ package core2;
 
 public class SeasonApp {
 
-	public void main(String currentMonth) {
-		System.out.println(currentMonth.substring(0,1).toUpperCase()+currentMonth.substring(1).toLowerCase());
+	public void getSeason (String currentMonth) {
 		switch (currentMonth.toLowerCase()) {
 		case "december":
 		case "january":
