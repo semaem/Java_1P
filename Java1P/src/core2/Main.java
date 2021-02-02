@@ -10,7 +10,7 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out.print("Input month: ");
 		String currentMonth = br.readLine();
-		app.getSeason(currentMonth);;
+		app.getSeason(currentMonth);
 	}
 
 }
